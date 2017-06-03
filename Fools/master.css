@@ -1,0 +1,193 @@
+﻿body {
+    box-sizing:border-box;
+    background-color:dodgerblue;
+    color:white;
+    
+}
+.mytxt{
+    text-align:center;
+    border:none;
+    width:120px;
+    margin-bottom:30px;
+    height:50px;
+    background-color:mediumblue;
+    color:white;
+    font-size:3em;
+}
+#error{
+    color:red;
+    font-size:2em;   
+    position:relative;
+    text-align:center;
+    width:800px;
+    margin:auto;
+    top:-120px;  
+} 
+.mytxtname{
+    position:absolute;
+    text-align:center;
+    border:none;
+    width:260px;
+    margin-bottom:400px;
+    height:80px;
+    background-color:dodgerblue;
+    color:blue;
+    font-size:3em;
+    top:160px;
+    right:10%
+}
+.mytxtid{
+    position:relative;
+    text-align:center;
+    border:none;
+    width:500px;
+    margin-bottom:40px;
+    height:100px;
+    background-color:mediumblue;
+    color:white;
+    font-size:3em;
+    top:-70px;
+}
+.mytxtpass{
+    position:relative;
+    text-align:center;
+    border:none;
+    width:500px;
+    margin-bottom:400px; 
+    height:100px;
+    background-color:mediumblue;
+    color:white;
+    font-size:3em;
+    top:-70px;
+}
+.logovis {
+    width: 500px;
+    height: 500px;
+    background-image: url('logo.jpg');
+    margin: auto;
+}
+.after{
+    position:relative;
+    top:-230px;
+}
+.after2{
+    position:relative;
+    top:-660px;
+}
+.answer{
+    text-align:center;
+    border:none;
+    width:500px;
+    font-size:3em;
+    height:250px;
+    margin-bottom:30px;
+}
+.backbutton1{
+    position:relative;
+    border:none;
+    background-color:black;
+    color:white;
+    width:80%;
+	height:80px;
+    font-size:3em;
+    top:0px;
+}
+.backbutton2{
+   position:relative;
+    border:none;
+    background-color:black;
+    color:white;
+    width:80%;
+	height:80px;
+    font-size:3em;
+    top:-430px;
+}
+.mainbox{
+    position:relative;
+    width:100%;
+    text-align:center;
+}
+h1{
+    text-align:center;
+    font-size:7em;
+    font-family:'Brush Script MT';
+    margin-bottom:200px;
+}
+.stretch{
+    width:100%;
+} 
+
+.labels {
+    display:block;
+    margin-bottom:30px;
+    font-size:4em;
+    font-family:'Brush Script MT';
+}
+.code{
+     display:block;
+    margin-bottom:30px;
+    font-size:8em;
+    font-family:'Times New Roman';
+}
+#gotpsyched{
+    display:block;
+    margin-bottom:30px;
+    font-size:2em;
+    position:relative;
+    top:-150px;
+    font-family:'Times New Roman';
+}
+.count{
+     display:block;
+    margin-bottom:30px;   
+    font-size:6em;
+    font-family:'Times New Roman';
+}
+.mylist{
+    border:none;
+    width:80%;
+    margin-bottom:30px;
+    height:80px;
+    background-color:mediumblue;
+    color:white;
+    font-size:2em;
+}
+.chosenButton{
+    border:none;
+	width:80%;
+	height:80px;
+	text-align:center;
+    color:dodgerblue;
+    font-size:3em;
+	font-family:Jokerman;
+    margin:auto;
+    margin-bottom:30px;
+}
+.chosenButton:hover{
+    color:white;
+    background-image:-webkit-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-moz-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-ms-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-o-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:linear-gradient(top, #3EACBA, #48C6D4);
+}
+.chosenButtonsubmission{
+    border:none;
+	width:80%;
+    min-height:80px;
+	text-align:center;
+    color:dodgerblue;
+    font-size:2em;
+    white-space: normal; 
+	font-family:Jokerman;
+    margin:auto;
+    margin-bottom:30px;
+}
+.chosenButtonsubmission:hover{
+    color:white;
+    background-image:-webkit-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-moz-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-ms-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:-o-linear-gradient(top, #3EACBA, #48C6D4);
+	background-image:linear-gradient(top, #3EACBA, #48C6D4);
+}
